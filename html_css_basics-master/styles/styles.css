@@ -1,0 +1,140 @@
+/*
+    This is here so we can see the boxes
+    You typically wouldn't have this rule in
+    your CSS
+*/
+* {
+    border: 1px solid red !important;
+}
+
+/*
+    This should always be here according to:
+    http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.old-school {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+div {
+    width: 50%;
+    padding: 1em;
+    margin: 2em;
+}
+
+.flex-container {
+    display: flex;
+    width: 50%;
+    margin: 4em;
+}
+
+.flex-container-row {
+    flex-direction: row; /* Default */
+    padding: 1em;
+}
+
+.flex-container-column {
+    flex-direction: column;
+    padding: 1em;
+}
+
+.flex-item {
+    padding: 1em;
+    margin-left: auto; /* Makes centering work. */
+    margin-right: auto; /* Makes centering work. */
+    /* can also use 1 line setting */
+    /*margin: 0 auto;*/
+}
+
+.font-one {
+    font-family: 'Revalia', cursive;
+}
+
+.font-two {
+    font-family: 'Ubuntu Mono';
+    font-size: 1.5em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.colored-text {
+    color: #ff0099;
+    /* can also use shorthand if you have repeating */
+    /*color: #f09;*/
+}
+
+.colored-background {
+    background-color: #ff0099
+    /* can also use shorthand if you have repeating digits */
+    /*background-color: #f09;*/
+}
+
+.outer-box {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
+.inner-box {
+    width: 50%;
+    padding: 1em;
+    height: 50%;
+}
+
+.underline {
+    padding: 1em;
+    text-decoration: underline;
+}
+
+.no-underline {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.overline {
+    padding: 1em;
+    text-decoration: overline;
+}
+
+.strikethrough {
+    padding: 1em;
+    text-decoration: line-through;
+}
+
+/*
+    Example of URL shortener CSS rules
+*/
+.shorten-url-inputs {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.url-to-shorten {
+    width: 50%;
+    font-size: 1.25em;
+    margin: .5em auto;
+    padding: .25em;
+}
+
+.action {
+    display: inline;
+    padding: .5em;
+    background-color: #0077ff;
+    color: #fff;
+    margin: auto;
+}
