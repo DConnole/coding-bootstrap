@@ -31,9 +31,22 @@ body{
   background-color: #2ac983;
 }
 
+.list-group{
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+.list-group .active{
+  color: white;
+  background-color: green;
+}
+
 .list-title{
   font-size: 14px;
   padding: 0;
+  margin: 0;
 }
 
 .list-text{
