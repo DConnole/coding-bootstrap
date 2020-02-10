@@ -7,11 +7,15 @@ body{
   }
 
 .navbar{
-  padding-left: 100px;
+  padding-left: 10px;
 }
 
 .blankspace{
     height: 100px;
+}
+
+.badge-warning{
+  color: white;
 }
 
 .free{
@@ -24,5 +28,16 @@ body{
 
 .partb{
   color: white;
-  background-color: #67ce8b;
+  background-color: #2ac983;
+}
+
+.list-title{
+  font-size: 14px;
+  padding: 0;
+}
+
+.list-text{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
 }
