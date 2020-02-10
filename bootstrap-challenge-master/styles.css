@@ -40,7 +40,7 @@ body{
 
 .list-group .active{
   color: white;
-  background-color: green;
+  background-color: lightgreen;
 }
 
 .list-title{
