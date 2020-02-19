@@ -27,11 +27,11 @@ body{
 }
 
 .iconlap-background{
-  color:red
+  color: magenta;
 }
 
 .icondown-background{
-  color:blue;
+  color: lightblue;
 }
 
 .badge-warning{
