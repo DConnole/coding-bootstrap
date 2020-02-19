@@ -23,11 +23,11 @@ body{
 }
 
 .iconcheck-background {
-  color: #2ac983;
+  color: ##52AD81;
 }
 
 .iconlap-background{
-  color: magenta;
+  color: #D0554B;
 }
 
 .icondown-background{
@@ -60,7 +60,7 @@ body{
 
 .list-group .active{
   color: white;
-  background-color: lightgreen;
+  background-color: #359867;
 }
 
 .list-title{
@@ -97,3 +97,12 @@ body{
   padding-bottom: .5em;
 }
 
+.iconlist-background{
+  background: none;
+  color: white;
+}
+
+.listicons{
+  font-size: 12px;
+  color: #52AD81;
+}
