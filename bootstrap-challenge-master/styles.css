@@ -71,7 +71,7 @@ body{
 }
 
 .list-text{
-  font-size: 14px;
+  font-size: 12px;
   padding: 0;
   margin: 0;
 }
@@ -80,6 +80,7 @@ body{
   padding-top: 0;
   padding-bottom: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 .l2t{
@@ -89,7 +90,7 @@ body{
 }
 
 .list2-text{
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
   padding-top: .5em;
