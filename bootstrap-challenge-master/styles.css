@@ -92,5 +92,7 @@ body{
   font-size: 12px;
   margin: 0;
   padding: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
